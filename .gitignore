@@ -1,0 +1,10 @@
+# Temporales de Word (locks)
+~$*.docx
+~$*.doc
+# Backups automáticos de Packet Tracer
+*.pkt~
+*.pkt~*
+# Sistema
+Thumbs.db
+.DS_Store
+desktop.ini

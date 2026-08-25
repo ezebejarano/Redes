@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\maria\\\\OneDrive\\\\Documentos\\\\Ezequiel\\\\Redes\" -Recurse -Depth 2 | Select-Object FullName, @{N='Type';E={if\\($_.PSIsContainer\\){'DIR'}else{'FILE'}}} | Format-Table -AutoSize -Wrap)",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\maria\\\\OneDrive\\\\Documentos\\\\Ezequiel\\\\Redes\" -Recurse -Depth 4 -File | Where-Object {$_.FullName -match 'TP laboratorio|TP teorico'} | Select-Object FullName | Format-Table -AutoSize -Wrap)",
+      "PowerShell($py = \\(Get-Command python -ErrorAction SilentlyContinue\\); if\\($py\\){ python -c \"import docx; print\\('python-docx OK'\\)\" 2>&1 } else { \"no python\" }; \"---\"; $pandoc = \\(Get-Command pandoc -ErrorAction SilentlyContinue\\); if\\($pandoc\\){\"pandoc OK\"}else{\"no pandoc\"}; \"---\"; try { $w = New-Object -ComObject Word.Application; \"Word COM OK\"; $w.Quit\\(\\) } catch { \"no Word COM\" })"
+    ]
+  }
+}
