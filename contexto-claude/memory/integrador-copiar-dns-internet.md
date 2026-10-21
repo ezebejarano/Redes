@@ -21,4 +21,6 @@ metadata:
 
 **Figuras del informe GRUPAL:** reemplazadas por XML+.NET las Figuras 4 (topología), 5 (records raíz), 6 (records .ar), 7 (nslookup google) y 9 (google navegador) con capturas FINAL-01,07,02,05,06 y tamaños recalculados por proporción (cx=6.5M EMU). Backup previo: "Informe...BACKUP-textookfiguras.docx".
 
-**PENDIENTE:** Figura 3 (NAT translations) sigue mostrando 200.100.100.3 — falta capturar de nuevo "show ip nat translations" (ahora daría 8.8.8.8). Figs 8 y 10 (opcionales) sin cambiar. Re-exportar PDF de "Para entregar" desde el .docx. Opcional: delegar hidronova.com.ar en c.dns.ar.
+**HECHO (commit 29edb18):** Figura 3 (NAT translations) actualizada a 8.8.8.8.
+
+**PENDIENTE:** Figs 8 y 10 (opcionales) sin cambiar. Re-exportar PDF de "Para entregar" desde el .docx. Opcional: delegar hidronova.com.ar en c.dns.ar.
