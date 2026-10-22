@@ -7,3 +7,4 @@
 - [Falla en la defensa del integrador](integrador-falla-exposicion.md) — desaprobó por falta de Internet; ARREGLADO 2026-10-20
 - [Decodificador .pkt](pkt-decoder.md) — leer .pkt de Packet Tracer con node (contexto-claude/herramientas)
 - [Datos reales del integrador](integrador-datos-reales.md) — IPs/config verificadas del .pkt; la guía de defensa docx tiene números mal
+- [Defensa: running-config](defensa-running-config.md) — análisis bloque a bloque del running-config de Router CABA; vistos 1-7, faltan 8-9 y Switch2
